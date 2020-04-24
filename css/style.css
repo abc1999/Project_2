@@ -1,0 +1,267 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+
+/* Стили Project#2 */
+.example-block {
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+	margin: 10px 20px 20px 10px;
+	width: 500px;
+}
+
+.example-block02 {
+	max-width: 500px;
+	margin: 10px 20px 20px 10px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+}
+
+.example-block03 {
+	min-width: 500px;
+	margin: 10px 20px 20px 10px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+}
+
+.example-image02 {
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+}
+
+.example-block04 {
+	height: 200px;
+	margin: 10px 20px 20px 10px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+}
+
+.example-block05 {
+	height: 50%;
+	margin: 10px 20px 20px 10px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+}
+
+.example-block06 {
+	max-height: 150px;
+	max-width: 500px;
+	margin: 10px 20px 20px 10px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+}
+.example-block07 {
+	min-height: 150px;
+	max-width: 500px;
+	margin: 10px 20px 20px 10px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+}
+
+.example-block08 {
+	overflow: visible;
+	margin: 10px 20px 20px 10px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+	max-height: 20px;
+}
+
+.example-block09 {
+	overflow: hidden;
+	margin: 10px 20px 20px 10px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+	max-height: 20px;
+}
+
+.example-block10 {
+	overflow: scroll;
+	margin: 10px 20px 20px 10px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+	max-height: 100px;
+	max-width: 500px;
+}
+
+.example-image03 {
+	height: 320px;
+	margin: 30px;
+}
+
+.example-string {
+	display: block;
+	padding: 20px;
+	border: 1px solid #000;
+	margin: 20px;
+}
+
+.example-string02 {
+	display: inline-block;
+	padding: 20px;
+	border: 1px solid #000;
+	margin: 20px;
+}
+
+.example-image {
+	width: 100px;
+}
+
+.example-block11 {
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px 20px 30px 5px;
+	border: 1px solid black;
+}
+
+.example-string11 {
+	font-size: 50px;
+	outline: 5px solid #000;
+	opacity: 0.5;
+}
+
+.example-image11 {
+	margin: 20px;
+	border: 2px solid #000;
+}
+
+.example-image111 {
+	margin: 20px;
+	border: 2px dotted #000;
+}
+
+.example-image112 {
+	margin: 20px;
+	border: 2px dashed #000;
+}
+
+.example-image113 {
+	margin: 20px;
+	border-top: 2px solid rgb(241, 0, 0);
+}
+
+.example-image114 {
+	margin: 20px;
+	border: 5px solid #000;
+	border-left: none;
+}
+
+.example-image115 {
+	overflow: hidden;
+	border-radius: 100PX;
+	margin: 20px;
+	border: 2px dashed #000;
+}
+
+.example-block12 {
+	overflow: hidden;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px 20px 30px 5px;
+	border: 3px solid black;
+	border-radius: 100PX;
+}
+
+.example-block13 {
+	overflow: hidden;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px 20px 30px 5px;
+	border: 3px solid black;
+	border-radius: 50px;
+	box-shadow: 0px 5px 2px 5px blueviolet;
+}
+
+.example-block14 {
+	overflow: hidden;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px 20px 30px 5px;
+	border: 3px solid black;
+	border-radius: 50px;
+	box-shadow: inset 0px 0px 20px 0px blueviolet;
+}
+
+.example-string12{
+	box-shadow: inset 0px 0px 20px 0px blueviolet;
+	font-size: 50px;
+}
+
+.example-string13{
+	box-shadow: 0px 0px 20px 0px blueviolet;
+	font-size: 50px;
+	text-shadow: blueviolet;
+}
